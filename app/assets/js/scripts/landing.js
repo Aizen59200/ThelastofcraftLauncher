@@ -851,7 +851,7 @@ async function initNews(){
         const cached = ConfigManager.getNewsCache()
         let newHash = await digestMessage(lN.content)
         let newDate = new Date(lN.date)
-        let isNew = false
+        let isNew = true
 
         if(cached.date != null && cached.content != null){
 

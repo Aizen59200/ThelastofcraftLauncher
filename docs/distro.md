@@ -46,7 +46,7 @@ The distribution index is written in JSON. The general format of the index is as
 {
     "version": "1.0.0",
     "discord": {
-        "clientId": "12334567890123456789",
+        "clientId": "The last of craft 🌲",
         "smallImageText": "WesterosCraft",
         "smallImageKey": "seal-circle"
     },
